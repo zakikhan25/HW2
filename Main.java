@@ -137,13 +137,13 @@ public class Main {
 
       // find the number of nodes in tree 1 having a data value > 20, should be 5
       if ( tree1.average() != 37.7 ) {
-          System.out.println("Failure (6): nodesGT method failed testing!");
+          System.out.println("Failure (6): average method failed testing!");
           errorFlag = true;
       }
 
       // find the number of nodes in tree 2 having a data value > 20, should be 2
       if ( tree2.average() != 6.666666666666667 ) {
-          System.out.println("Failure (7): nodesGT method failed testing!");
+          System.out.println("Failure (7): average method failed testing!");
           errorFlag = true;
       }
 
